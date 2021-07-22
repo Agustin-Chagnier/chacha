@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+.navbar__titulo {
+  font-family: 'Pacifico', cursive; }
+
+.botonDropdown {
+  font-family: 'Roboto', sans-serif; }
+
+.inicio {
+  width: 100%; }
+  .inicio .inicio__container {
+    padding: 0%; }
+    .inicio .inicio__container .inicio__video {
+      width: 100vw; }
