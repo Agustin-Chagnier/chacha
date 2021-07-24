@@ -1,9 +1,21 @@
 .inicio {
-    width: 100%;
-    .inicio__container {
-        padding: 0%;
-        .inicio__video {
+    width: 100vw;
+    .inicio__container--video {
             width: 100vw;
+            .inicio__video {
+                width: 100vw;
+            }
+     }
+    .inicio__container--combos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .inicio__producto {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin: 3em;
+            }
         }
     }
-}

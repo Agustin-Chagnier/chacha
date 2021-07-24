@@ -1,0 +1,18 @@
+.footer {
+    background-color: darkred;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .footer__contacto {
+        font-family: 'Pacifico', cursive;
+        font-size: 1.1em;
+        color: wheat;
+        padding: 1em;
+    }
+    .footer__numero {
+        font-family: 'Pacifico', cursive;
+        font-size: 1.1em;
+        color: wheat;
+        padding: 1em;
+    }
+}

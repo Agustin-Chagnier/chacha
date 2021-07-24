@@ -4,15 +4,47 @@
   padding: 0%;
   box-sizing: border-box; }
 
+.navbar {
+  background-color: darkred; }
+
 .navbar__titulo {
-  font-family: 'Pacifico', cursive; }
+  font-family: 'Pacifico', cursive;
+  color: wheat;
+  padding-top: 0.3em; }
 
 .botonDropdown {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  color: wheat; }
 
 .inicio {
-  width: 100%; }
-  .inicio .inicio__container {
-    padding: 0%; }
-    .inicio .inicio__container .inicio__video {
+  width: 100vw; }
+  .inicio .inicio__container--video {
+    width: 100vw; }
+    .inicio .inicio__container--video .inicio__video {
       width: 100vw; }
+  .inicio .inicio__container--combos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .inicio .inicio__container--combos .inicio__producto {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 3em; }
+
+.footer {
+  background-color: darkred;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .footer .footer__contacto {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.1em;
+    color: wheat;
+    padding: 1em; }
+  .footer .footer__numero {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.1em;
+    color: wheat;
+    padding: 1em; }
